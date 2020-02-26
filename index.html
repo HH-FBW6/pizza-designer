@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Pizza designer form</title>
+        <link rel="stylesheet" href="/styles/styles.css" />
+    </head>
+    <body>
+        <div class="pizza-designer">
+            <header class="header">
+                <img class="giphy" src="/images/smiling-pizza.gif" />
+                <h1>Pizza designer!</h1>
+                <img class="giphy" src="/images/smiling-pizza.gif" />
+            </header>
+
+            <main class="content">
+                <label for="pizza-name" class="single">Pizza name</label>
+                <input id="pizza-name" type="text" />
+
+                <label for="pizza-name" class="single">Pizza name</label>
+                <input id="pizza-name" type="text" />
+
+                <label for="pizza-size" class="single">Pizza size (cm)</label>
+                <input id="pizza-name" type="number" value="10" />
+
+                <h2>Toppings</h2>
+
+                <div>
+                    <label for="toppings-pepperoni">Pepperoni</label>
+                    <input id="toppings-pepperoni" type="checkbox" />
+                <div>
+
+                <div>
+                    <label for="toppings-mushrooms">Mushrooms</label>
+                    <input id="toppings-mushrooms" type="checkbox" />
+                </div>
+
+                <div>
+                    <label for="toppings-sweetcorn">Sweetcorn</label>
+                    <input id="toppings-sweetcorn" type="checkbox" />
+                </div>
+
+                <div>
+                    <label for="toppings-onions">Onions</label>
+                    <input id="toppings-onions" type="checkbox" />
+                </div>
+
+                <div>
+                    <label for="toppings-anchovies">Anchovies</label>
+                    <input id="toppings-anchovies" type="checkbox" />
+                </div>
+
+                <div>
+                    <label for="toppings-peppers">Peppers</label>
+                    <input id="toppings-peppers" disabled="disabled" type="checkbox" />
+                </div>
+
+                <h2>Pizza base</h2>
+
+                <div>
+                    <label for="base-thin">Thin</label>
+                    <input id="base-thin" type="radio" name="pizza-base" />
+                <div>
+
+                <div>
+                    <label for="base-deep">Deep pan</label>
+                    <input id="base-deep" type="radio" name="pizza-base" />
+                <div>
+
+                <div>
+                    <label for="base-stuffed">Deep pan with stuffed crust</label>
+                    <input id="base-stuffed" type="radio" name="pizza-base" />
+                <div>
+
+                <label for="pizza-extra" class="single">Extra ingredients</label>
+                <input id="pizza-extra" type="text" />
+
+                <label for="pizza-price" class="single">Recommended retail price (€)</label>
+                <input id="pizza-price" value="0" type="number" />
+
+                <button>My pizza is ready!</button>
+            </main>
+        </div>
+    </body>
+</html>

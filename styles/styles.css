@@ -1,0 +1,69 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgrey;
+}
+
+.pizza-designer {
+    width: 80%;
+    color: lavender;
+    background-color: #473d7b;
+    margin: 0 auto;
+    padding: 0 50px 100px 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 100px;
+}
+
+.header .giphy {
+    height: 150px;
+}
+
+.content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.content input {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.content input[type="number"] {
+    border: 5px solid violet;
+}
+
+.content label {
+    display: inline-block;
+    width: 140px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content label.single {
+    display: block;
+    margin: 15px 0;
+    margin-right: 10px;
+}
+
+.content button:hover {
+    background-color: red;
+}
+
+.content button {
+    margin-top: 50px;
+    font-style: italic;
+    display: block;
+    color: white;
+    width: auto;
+    font-size: 50px;
+    padding: 20px   ;
+    border: none;
+    background-color:orange;
+}
